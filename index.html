@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">WALID EL HARE</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">WALID EL HARE</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="walid elhare" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">WALID EL HARE</h1>
+        <p class="section__text__p2">IT SPECIALISTE</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/walidelharecv.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/walidelhare/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/welhare'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>IT Specialist <br />Frontend/Desktop Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Vocational IT School Diploma<br />Online Certifications</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              A skilled Technical Support Specialist and Frontend/Desktop Developer with experience in troubleshooting hardware, software, and network issues, ensuring high customer satisfaction. Proficient in HTML, CSS and JavaScript with expertise in building responsive web interfaces. Developed cross-platform desktop applications using VB and C#. Adept at problem-solving, automation, and collaborating across technical and non-technical teams. Passionate about delivering efficient solutions and enhancing user experience.            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>           
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Wordpress</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Desktop Development</h2>
+            <div class="article-container">
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VB</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>.NET Technologie</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+        
+            </div>
+          </div>
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">System Administration</h2>
+            <div class="article-container">
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Network Administration</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Network Security</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Technical Support</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+        
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Certifications</h2>
+            <div class="article-container">
+
+              <article>
+                <img
+                  src="./assets/google.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3><a target="_blank" href="https://coursera.org/verify/SDTG2DYJ99TV">Technical Support</a></h3>
+                  <p></p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/microsoft.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3><a target="_blank" href="https://www.linkedin.com/learning/certificates/15b9c4688c0816f41c5675705970db9540e5228c43d9cb76e989311c5e57ea99">System Administration</a></h3>
+                  <p></p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/linkdin.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3><a target="_blank" href="https://www.linkedin.com/learning/certificates/83a3dddfd8dd0b97caaf2fd7140f107e09b52dd0cb983f8164bd4d5bc27c9a9c">Networking Foundations</a></h3>
+                  <p></p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/linkdin.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3><a target="_blank" href="https://www.linkedin.com/learning/certificates/14c3111f2a805e3fcab6def561489a53afaf2383d23058f03ecae45c30c99efb?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BJCnN%2BCNmR9K%2FWRXyQjNIgA%3D%3D">VoIP & UC</a></h3>
+                  <p></p>
+                </div>
+              </article>
+
+              <br/>
+              <article>
+                <img
+                  src="./assets/linkdin.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3><a target="_blank" href="https://www.linkedin.com/learning/certificates/aa02954b9173d7c3586c12b96c23e9bcca6b651789b8c698d5fd356bf71de026?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BXyJLr2cxR4intZmf5OqS3A%3D%3D">VPN</a></h3>
+                  <p></p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/Alison-Logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3><a target="_blank" href="https://alison.com/certification/check/2y10R0hStqxPxL5CBzmnn53C1O6KKjlOjILzAsiGa6387O1j062eJ67O">Hardware/Software</a></h3>
+                  <p></p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/OP.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3><a target="_blank" href="https://drive.google.com/file/d/1Kaz0pGC9gYGHM2xYH6XYNTG9QB4xwTgR/view">HTML & CSS</a></h3>
+                  <p></p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/OP.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3><a target="_blank" href="https://drive.google.com/file/d/1KKWS_1hwS6K-EeVN3oXwz3zlo9MH8u7l/view">javascript</a></h3>
+                  <p></p>
+                </div>
+              </article>
+        
+            </div>
+          </div>
+          
+        </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-8.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Mercedes Katalog</h2>
+            <h3>Not Avilable</h3>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn" 
+              >
+              <a href="#">Live Demo</a>             
+              </button>
+            </div>
+          </div>
+          <!-- -->
+          <!-- -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-7.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">BMW Katalog</h2>
+            <h3>Not Avilable</h3>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn" 
+              >
+              <a href="#">Live Demo</a>             
+              </button>
+            </div>
+          </div>
+          <!-- -->
+          <!-- -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-6.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Quiz Test</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn" 
+              >
+              <a href="prg/Quiz Test/main.html">Live Demo</a>             
+              </button>
+            </div>
+          </div>
+          <!-- -->
+          <!-- -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">XO Game</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn" 
+              >
+              <a href="prg/XO/index.html">Live Demo</a>             
+              </button>
+            </div>
+          </div>
+          <!-- -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">NSTJE</h2>
+            <h4>NSTJE Management App</h4>
+            <div class="btn-container">
+              <!-- 
+               <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+              -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Organization Arab Scout</h2>
+            <h4>OAS Management App</h4>
+            <div class="btn-container">
+              <!--
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+              -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Telecompetence call centre</h2>
+            <h4>Telecompetence Management App</h4>
+            <div class="btn-container">
+              <!--
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+              -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">OMP Boats Management</h2>
+            <h4>OMP Boats Management App</h4>
+            <div class="btn-container">
+              <!--
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">contact.walid.elhare@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/walidelhare/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Walid El hare. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
